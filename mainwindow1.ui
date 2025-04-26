@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1144</width>
+    <height>792</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>1042</width>
+    <height>802</height>
+   </size>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/background/image/background.png);</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>660</y>
+          <width>281</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 26pt &quot;楷体&quot;;
+color: rgb(0, 0, 0);
+border-image: url(:/background/image/bacground-green.png);
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>开始游戏</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>970</x>
+          <y>0</y>
+          <width>161</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 18pt &quot;楷体&quot;;
+color: rgb(0, 0, 0);
+border-image: url(:/background/image/bacground-green.png);
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>查看规则</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>960</x>
+          <y>710</y>
+          <width>161</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 18pt &quot;楷体&quot;;
+color: rgb(0, 0, 0);
+border-image: url(:/background/image/bacground-green.png);
+
+
+</string>
+        </property>
+        <property name="text">
+         <string>退出</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>-10</y>
+          <width>661</width>
+          <height>781</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/background/image/background-label.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>90</y>
+          <width>201</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/background/image/bacground-green.png);
+font: 20pt &quot;楷体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>返回</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
